@@ -1,3 +1,4 @@
+/*
 console.log("Hello Saksham");
 console.log("Sharma");
 
@@ -89,3 +90,198 @@ Price: 270
 console.log(Product);
 console.log(Product["Rating"]);
 console.log(Product.Offer);
+*/
+
+// const { version } = require("react");
+
+//Arithmetic Operator
+/*
+let a = 10;
+let b = 20;
+console.log("a + b = ", a+b);
+console.log("a - b = ", a-b);
+console.log("a * b = ", a*b);
+console.log("a / b = ", a/b);
+//Modulas 
+console.log("a % b = ", a%b);
+//Exponential
+console.log("a ** b = ", a**b);
+*/
+
+//Unary Operator
+//Increment
+//Decrement
+// let a = 10;
+// let b = 20;
+// console.log("a =", a, "& b =", b);
+//a = a + 1;
+//b = b + 1;
+// a++; Post Increment
+// b++; Post Increment
+// a = a - 1;
+// b = b - 1;
+// a--; Post decrement
+// b--; Post decrement
+//console.log(a)
+//console.log(b)
+// console.log("--a", --a)
+// console.log("--b", --b)
+
+// Assignment Operator
+
+// let a = 10;
+// let b = 20;
+// a += 4 // a = a + 4
+// console.log("a = ",a)
+// a *= 4 // a = a * 4
+// console.log("a = ",a)
+// a -= 4 // a = a - 4
+// console.log("a = ",a)
+// a /= 4 // a = a / 4
+// console.log("a = ",a)
+// a %= 4 // a = a % 4
+// console.log("a = ",a)
+// a **= 4 // a = a ** 4
+// console.log("a = ",a)
+
+//Comparison Operator
+
+// let a = 10;
+// let b = 20;
+// console.log("a == b = ", a == b);
+// console.log("a != b = ", a != b);
+
+//Strict version
+// let a = 10;
+// let b = "10";
+// console.log("a === b", a === b);
+// console.log("a !== b", a !== b);
+
+// let a = 10;
+// let b = 20;
+// console.log("a < b", a < b);
+// console.log("a > b", a > b);
+// console.log("a >= b", a >= b);
+
+//Logical Operator
+// let a = 10;
+// let b = 20;
+// let cond1 = a < b; //True
+// let cond2 = a === 10; //True
+// console.log(cond1);
+// console.log(cond2);
+// console.log("cond1 && cond2", cond1 && cond2);
+
+// Logical OR
+// let a = 10;
+// let b = 20;
+// let cond1 = a > b; //True
+// let cond2 = a !== 10; //True
+// // console.log(cond1);
+// // console.log(cond2);
+// console.log("cond1 || cond2", cond1 || cond2);
+
+//Example 2
+// let a = 10;
+// let b = 20;
+// let cond1 = a > b; //True
+// let cond2 = a === 10; //True
+// console.log(cond1);
+// console.log(cond2);
+// console.log("cond1 || cond2", cond1 || cond2);
+
+
+// let age = 15;
+// if (age > 18){
+//   console.log("You can vote");
+// }
+// if (age < 18){
+//   console.log("You Cannot Vote");
+// }
+
+
+// Conditional Statement
+//If
+
+// let mode = "dark";
+// let color;
+// if (mode === "dark"){
+// color = "Black";
+// }
+// if (mode === "Light"){
+// color = "White"
+// }
+// console.log(color);
+
+//If Else
+
+// let mode = "Blue";
+// let color;
+// if (mode === "dark"){
+// color = "Black";
+// }
+// else {
+// color = "White"
+// }
+// console.log(color);
+
+
+//If-Else-Vote-Code
+
+// let age = 18;
+// if (age >= 18){
+// console.log("You can vote");
+// }
+// else {
+// console.log("You cannot vote");
+// }
+
+//If-Else-Even-Odd
+
+// let num = 9;
+// if (num%2===0){
+// console.log(num, "Is Even Number");
+// }
+// else{
+// console.log(num, "Is Odd number");
+// }
+
+//Else-If
+
+// let age = 70;
+
+// if (age < 18){
+// console.log("You are underage");
+// }
+// else if (age > 60){
+// console.log("You are Senior");
+// }
+// else{
+// console.log("Error")
+// }
+
+//Ternary Operator
+
+// let age = 15;
+// if (result = age >= 18 ? "Adult": "Not Adult"){
+// console.log(result);
+// }
+// age >= 18 ? console.log("Adult"): console.log("Not Adult");
+
+
+// alert("Hello");
+
+
+// let name = prompt("Hello");
+// console.log(name);
+
+// let num = prompt("Enter a number");
+// if (num%5===0){
+// console.log(num, "Number is multiple of 5");
+// }
+// else{
+// console.log(num, "Number is NOT a multiple of 5");
+// }
+
+
+
