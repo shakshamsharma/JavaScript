@@ -283,5 +283,160 @@ console.log("a ** b = ", a**b);
 // console.log(num, "Number is NOT a multiple of 5");
 // }
 
+//LOOPS
+//For Loop
+//Print 1 to 5
+// for (let i = 1; i<=100; i++){
+// console.log("Saksham The Great");
+// }
+// console.log("Loop has ended")
+
+//calculate sum 1 to n
+// sum = 0;
+// for (let i = 1; i <= 5; i++){
+// sum = sum+i;
+// }
+// console.log("sum =", sum)
+// console.log("Loop has ended");
+
+// for (i = 1; i <= 5; i++){
+// console.log("i = ",i)
+// }
+
+// WHILE LOOP
+// let i = 1;
+// while (i <= 5){
+// console.log("Saksham");
+// i++;
+// }
+
+//Do While
+// i = 1;
+// do{
+// console.log("i =",i);
+// i++
+// }
+// while (i <=10);
+
+//For-of LOOP
+// let str = "Saksham";
+// for(let i of str){ //iterator = character
+// console.log("i=",i)
+// }
+
+// let str = "Saksham";
+// let size = 0;
+// for(let i of str){ //iterator = character
+// console.log("i=",i)
+// size++;
+// }
+// console.log("Total characters are: ", size);
+
+//For In LOOP
+
+// let student = {
+//     name: "Saksham",
+//     age: 22,
+//     course: "CSE",
+//     isPass: "True"
+// };
+// for(let i in student)
+// console.log(i);
+
+// let student = {
+//     name: "Saksham",
+//     age: 22,
+//     course: "CSE",
+//     isPass: "True"
+// };
+// for(let key in student)
+// console.log("key =", key, "Value =", student[key]);
+
+
+//Print ALL Even Numbers from 1 to 100 using for Loop
+
+// for(num=0; num<=100; num++){
+// if (num%2==0){
+// console.log(num);
+// }
+// }
+
+// let gameNum = 10;
+// let userNum = prompt("Guess the number below:");
+// while(userNum != gameNum){
+//   userNum = prompt("You enetered wrong number, Guess again");
+// }
+// console.log("Congratulation, You entered the right number");
+
+
+// let str = 'Saksham'; 
+// console.log(str[6]);
+
+//Template Literals
+// let specialstring = `The is the template literals`;
+// console.log(/*typeof*/ specialstring);
+
+
+// let obj = {
+// item: "Pen",
+// price: "10"
+// };
+// let output = `The cost of ${obj.item} is ${obj.price}`;
+// console.log(output);
+//String Interpolation
+//To Create Strings by doing substitution of placeholders
+
+
+//Escape Characters
+// console.log("Saksham\nSharma")
+// console.log("Saksham\tSharma")
+// let len = "Saksham\nSharma";
+// console.log(len.length);
+
+
+//String are Immutable 
+
+
+//String Methods
+//UpperCase
+// let name = 'saksham';
+// console.log(name.toUpperCase())
+//LowerCase
+// let name1 = 'SHARMA';
+// console.log(name1.toLowerCase())
+//Trim
+// let name2 = '        Saksham Sharma The Great    ';
+// console.log(name2.trim());
+//Slicing
+// let num = "123456";
+// console.log(num.slice(1,5));
+// console.log(num.slice(1));
+//Concatination
+// let str1 = "Saksham";
+// let str2 = "Sharma";
+// let result = str1.concat(str2);
+// let result1 = str2.concat(str1);
+// let result2 = str1 + str2
+// console.log(result);
+// console.log(result1);
+// console.log(result2);
+//Replace
+// let str = 'Hello';
+// console.log(str.replace("H", "Y"));
+// console.log(str.replace("Hello", "Hey"));
+// let str1 = 'Hello';
+// console.log(str1.replaceAll("l", "S"));
+//CharAt
+// let name = 'Saksham';
+// console.log(name.charAt(0));
+
+
+//Practice
+// let name = prompt("Enter your name");
+// console.log("@"+name+name.length);
+
+//Array
+
+
 
 
