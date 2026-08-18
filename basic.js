@@ -523,3 +523,71 @@ console.log("a ** b = ", a**b);
 // let arr = [1, 2, 3, 4, 5, 6, 7];
 // arr.splice(2,2,101,102);
 
+
+//Functions
+//Block of code that perform a specific task, can be invoked whenever needed
+// function myfunction(){
+// console.log("Hello Saksham");
+// console.log("How are you?");
+// }
+// myfunction()
+
+// function myfunction(msg, n){
+//Parameter
+// console.log(msg, n);
+// }
+// myfunction("Hello The Great Saksham", 100); //Arguement
+
+
+// function sum(x,y){
+// console.log(x+y);
+// }
+
+
+// function sum(x,y){
+//Local Variable
+// s = x + y;
+// console.log("Saksham")
+// return s;
+// console.log("Sharma")
+// }
+// let val = sum(3, 4);
+// console.log(val);
+
+
+//Arrow Function
+// =>
+// const ArrowSum = (a, b) =>{
+// return a + b;
+// };
+// let ArrowMul = (a, b) =>{
+// return a * b;
+// };
+// ArrowMul = 5;
+
+
+//Practice
+// function countVowel(str){
+// let count = 0;
+// for (const char of str){
+// if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u'){
+// count++;
+// }
+// }
+// console.log(count);
+// }
+
+
+//Practice with Arrow Function
+// const countVow = (str) =>{
+// let count = 0;
+// for (const char of str){
+// if (char === 'a' || char === 'e' || char === 'i' || char === 'o' || char === 'u'){
+// count++;
+// }
+// }
+// return count;
+// }
+
+
+//For Each Loop In Array
