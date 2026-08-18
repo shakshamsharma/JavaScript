@@ -436,7 +436,90 @@ console.log("a ** b = ", a**b);
 // console.log("@"+name+name.length);
 
 //Array
+// let heroes = ["Iron Man", "Thor", "Hulk"];
+// console.log(heroes.length);
+// console.log(heroes[0]);
+// console.log(heroes[0]="Spiderman");
+// for(let idx = 0; idx < heroes.length; idx++){
+//   console.log(heroes[idx]);
+// }
+// for (let el in heroes){
+//     console.log(el);
+// }
+
+// let cities = ["Mumbai","Delhi","Goa","Chandigarh"];
+// for (let city of cities){
+// console.log(city.toUpperCase());
+// console.log(city.toLowerCase());
+// }
+
+//Practice
+// let marks = [85, 97, 44, 37, 76, 60];
+// let sum = 0;
+// for (let val of marks){
+// sum += val;
+// }
+// console.log(sum)  
+
+// let avg = sum / marks.length;
+// console.log(`avg marks of the clas = ${avg}`);
+
+//Practice 
+// let items = [250, 645, 300, 900, 50]
+// let i = 0
+// for (let item of items){
+// console.log(`value at index ${i} = ${item}`);
+// let offer = item / 10;
+// items[i] = items[i] - offer;
+// console.log(`Value after offer = ${items[i]}`); 
+// i++;
+// }
+
+
+// Array Methods
+//Push(): Add to end
+// let foodItems = ["Apple","Mango","Litchi","Banana"];
+// let items = foodItems.push("Kurkure","Paneer");
+
+
+//POP - Delete From End and Return
+// let foodItems = ["Apple","Mango","Litchi","Banana"];
+// console.log(foodItems);
+// let deleted_items = foodItems.pop();
+// console.log(foodItems);
+// console.log("Deleted Items is: ", deleted_items);
+
+
+//toString: don't change in origional Array
+// let foodItems = ["Apple","Mango","Litchi","Banana"];
+// console.log(foodItems);
+// console.log(foodItems.toString());
 
 
 
+//Concatination
+// let marvel_heroes = ["Thor","Iron Man","SpiderMan","Vision"];
+// let dc_heroes = ["BatMan","SuperMan","Wonder Women","AquaMan"];
+// let indian_heroes = ["ShaktiMan","Krish"];
+// console.log(marvel_heroes + dc_heroes);
+// let heroes = marvel_heroes.concat(dc_heroes, indian_heroes);
+// console.log(heroes);
+
+
+//unshift: Add to Start
+// let marvel_heroes = ["Thor","Iron Man","SpiderMan","Vision"];
+// marvel_heroes.unshift("AntMan");
+// let val = marvel_heroes.shift();
+// console.log("deleted", val);
+
+
+//Slice - Return a piece of a array
+// let marvel_heroes = ["Thor","Iron Man","SpiderMan","Vision"];
+// console.log(marvel_heroes);
+// console.log(marvel_heroes.slice(1,3));
+
+
+//Splice - Change origional array (add, remove, replace)
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// arr.splice(2,2,101,102);
 
