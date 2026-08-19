@@ -591,3 +591,91 @@ console.log("a ** b = ", a**b);
 
 
 //For Each Loop In Array
+// let arr = [1, 2, 3, 4, 5];
+// arr.forEach(function printVal(val){
+// console.log(val);
+// });
+// arr.forEach((val) =>{
+// console.log(val)
+// })
+
+
+// let arr = ["Palampur","Delhi","Mumbai"];
+// arr.forEach((val) =>{
+// console.log(val.toUpperCase());
+// });
+
+
+// let arr = ["Palampur","Delhi","Mumbai"];
+// arr.forEach((val, idx, arr) =>{
+// console.log(val.toUpperCase(), idx, arr);
+// });
+
+// let num = [1,2,3,4,5];
+// num.forEach((num) =>{
+// console.log(num*num);
+// });
+
+
+//Map Method
+// let nums = [10,20,30,40];
+// let newarr = nums.map((val) =>{
+// return val * 2;
+// });
+
+
+//filter
+// let arr = [1,2,3,4,5,6,7,8,9,10];
+// let evenArray = arr.filter((val) =>{
+// return val%2===0;
+// });
+// console.log(evenArray);
+
+
+//Reduce
+// let arr = [1,2,3,4];
+// const output = arr.reduce((res, cur) =>{
+// return res + cur;
+// })
+// console.log(output);
+
+
+
+//largest number in Array
+// let arr = [1,2,3,4];
+// const output = arr.reduce((res, cur) =>{
+// return res > cur ? res: cur;
+// })
+// console.log(output);
+
+
+// let n = prompt("Enter the number");
+// let arr = [];
+// for(let i=1;i<=n;i++){
+// arr[i-1] = i;
+// }
+// console.log(arr);
+
+
+// let arr = [1,2,3,4];
+// const output = arr.reduce((res, cur) =>{
+// return res + cur;
+// })
+// console.log(output);
+// let sum = arr.reduce((res, cur) =>{
+// return res + cur;
+// });
+// console.log(sum);
+
+
+
+// let n = prompt("Enter the number");
+// let arr = [];
+// for(let i=1;i<=n;i++){
+// arr[i-1] = i;
+// }
+// console.log(arr);
+// let factorial = arr.reduce((res, cur) =>{
+// return res * cur;
+// });
+// console.log(factorial);
